@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <!-- Enlace para la fuente Orbitron desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Enlace para la fuente Exo 2 desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador de Texto</h1>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <p class="info-message">No se admiten mayúsculas ni caracteres especiales.</p>
+        <textarea id="input-text" placeholder="Ingresa el texto aquí..."></textarea>
+        <div class="buttons">
+            <button onclick="encriptar()">Encriptar</button>
+            <button onclick="desencriptar()">Desencriptar</button>
+        </div>
+        <textarea id="output-text" readonly placeholder="Resultado..."></textarea>
+        <button onclick="copiarTexto()">Copiar</button>
+    </div>
+    
+    <!-- Controles de audio -->
+    <div class="audio-controls">
+        <audio id="background-audio" src="Mission_Impossible_Full.mp3" autoplay loop controls></audio>
+    </div>
+    
+    <!-- Texto en movimiento con hipervínculo -->
+    <div class="marquee">
+        <p><a href="https://www.linkedin.com/in/marquezmauro/" target="_blank">- Desarrollado por Mauro Agustin Marquez - Encriptador de Texto 2024 - @MauroAgustinMarquez - Para Oracle + Alura - Todos los derechos reservados 2024 -</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
